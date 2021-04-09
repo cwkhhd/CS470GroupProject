@@ -1,3 +1,5 @@
 Add constraints in this format:
 
 (Table with the Constraint) (Attribute(s) with the constraint needed;
+
+Matches Team_A <> Team_B [This is implemented with a CHECK statement for each insertion]
