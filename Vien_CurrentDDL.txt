@@ -1,0 +1,61 @@
+create database WorldCup;
+
+use WorldCup;
+
+create table Team
+(
+	Team_Name 			varchar(30) not null,
+    Nick_Name 			varchar(30) not null,
+    Manager				varchar(30) not null,
+    Player				varchar(30) not null,
+    Captain				varchar(30) not null,
+    Qualified_status 	varchar(30) not null,
+    
+    primary key 		(Team_Name),
+    unique				(Team_Name)
+);
+
+create table Stage
+(
+	Match_type			varchar(30) not null,
+    Stadium				varchar(30) not null,
+    Match_time			timestamp,
+    
+    primary key 		(Match_No),
+    unique				(Match_No)
+);
+
+create table Match_junction
+(
+	Match_number 		integer not null,
+    Match_Type			varchar(30) not null,
+    
+    primary key (Match_number,Match_Type)
+);
+
+
+    
+create table Matches
+(
+	Match_Number		integer not null,
+    Team_1				varchar(50) not null,
+    Team_2				varchar(50) not null,
+    Score_1				integer not null,
+    Score_2				integer not null,
+    Winner				varchar(30),
+    
+    Primary key			(Match_Number),
+    Unique				(Match_Number)
+);
+
+alter table Matches add constraint fk1_TeamName
+    foreign key (Team_1) references Team(Team_Name);
+
+alter table Matches add constraint fk2_TeamName
+    foreign key (Team_2) references Team(Team_Name);
+    
+alter table Match_junction add constraint fk_MatchNo_Junctiontable
+    foreign key (Match_Number) references Matches(Match_number); 
+
+alter table Match_junction add constraint fk_Matchtype
+	foreign key (Match_Type) references Stage(Match_Type);
