@@ -10,3 +10,18 @@ For all teams what was the lowsest score?
 Who is your manager?
 I'd like to speak to your manager!
 Get your manager now
+
+
+Works In Progress:
+
+/*Player with most goals */
+MostGoals := πGoal(PLAYER)- πGoal[PLAYER ⨝ Score<Score2 (ρName2/NameρScore2/Score PLAYER)]
+
+/*Matches held in given stadium */
+π MATCH.Match_Number(σ STAGE.Stadium = '*'(STAGE)⨝ MATCH)
+
+/*All teams that played games that ended in a tie*/
+TiedGames←σScore_1=Score_2(MATCH)πName(σ(Name=TiedGames.Team_1 ∨ Name=TiedGames.Team_2)(Team×TiedGames))
+
+/*Players who have played in a match involving a given team*/
+πName(PLAYER)σName='*'(TEAM)
