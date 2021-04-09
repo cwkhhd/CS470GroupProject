@@ -3,3 +3,18 @@ Add constraints in this format:
 (Table with the Constraint) (Attribute(s) with the constraint needed;
 
 Matches Team_A <> Team_B [This is implemented with a CHECK statement for each insertion]
+
+Player: cannot have more than 22 tuples, must have more than 11 tuples (the minimum will be enforced
+on insertion
+
+Player:  Award can only hold certain values, will use a table to check if the names are valid.
+
+Team: Cannot Participate in More than 7 matches: Will be enforced on Matches with a trigger before insert 
+
+Match: Winner must be the team with the greater score, null otherwise.  Will be enforced with trigger
+
+Stage: Match Type must be a value that comes from a list of pre-described names similar to enum. 
+
+Stage: No Match Type can have more than 8 matches involved
+
+
