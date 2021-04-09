@@ -1,1 +1,12 @@
 Ideas for queries/ views to turn into relational algebra
+
+What teams made it to the knockout round
+What were the scores of each team for each of the groups?  Recall that the point awards are loss: 0 tie: 1 win: 2
+How many wins, losses, ties did team x get?
+How many games ended in a tie?
+What was the average score for team x
+For all teams what was the highest score?
+For all teams what was the lowsest score?
+Who is your manager?
+I'd like to speak to your manager!
+Get your manager now
