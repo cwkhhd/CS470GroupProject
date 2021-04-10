@@ -27,7 +27,7 @@ TiedGames←σScore_1=Score_2(MATCH)πName(σ(Name=TiedGames.Team_1 ∨ Name=Tie
 πName(PLAYER)σName='*'(TEAM)
 
 /*Average score for team x 
-* G avg(Team) (project Team_A as Team (select (team_A = "x") (Matches)) union project Team_B as Team ((select (team_B = "x") Matches))
+* G avg(Team) (π Team_A as Team (σ (team_A = "x") (Matches)) ∪ π Team_B as Team ((σ (team_B = "x") Matches))
 
 /*For all teams what was the highest score?
 Team G max(Score)(π(Team_1 as Team, Score_1 as Score)(Matches) ∪ π(Team_2 as Team, Score_2 as Score)(Matches))
