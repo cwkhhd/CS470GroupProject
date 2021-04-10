@@ -38,3 +38,10 @@ Team G sum(Team)(((π (Team_A as Team)(σ (Team_A = Winner) Match ⨝ (match_Num
 ∪ (π (Team A as Team)(σ (Winner isNull)(Match ⨝ (match_Number = Match_No)(σ(Match_Type = "group x")(Stage_Junction)))))
 ∪ (π (Team_B as Team)(σ (Team_B = Winner) Match ⨝ (match_Number = Match_No)(σ(Match_Type = "group x")(Stage_Junction))))
 ∪ (π (Team B as Team)(σ (Winner isNull)(Match ⨝ (match_Number = Match_No)(σ(Match_Type = "group x")(Stage_Junction))))))
+
+/* Matches won by team A
+π(Match Number, Team_1, Team_2, Result, Winner)(σ(Winner='Team A')(MATCH))
+
+/* Team A information
+π(Name, Nick_Name, Manager, Captian)(σ(Name='Team A')(TEAM))
+
