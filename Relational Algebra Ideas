@@ -48,3 +48,9 @@ Team G sum(Team)(((π (Team_A as Team)(σ (Team_A = Winner) Match ⨝ (match_Num
 /* Players in position ‘somePosition’
 π(Name, Nick_Name, Number, Team_Name, Position, Goal, Award)(σ(Name=’somePosition’)(Player))
 
+/* Player with Name = ‘name
+π(Name, Nick_Name, Number, Team_Name, Position, Goal, Award)(σ(Name=’name’)(Player))
+
+/* Players with Jersey Number ‘num’
+π(Name, Nick_Name, Number, Team_Name, Position, Goal, Award)(σ(Name=’num’)(Player))
+
