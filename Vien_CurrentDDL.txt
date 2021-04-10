@@ -9,7 +9,7 @@ create table Team
     	Manager				varchar(30) not null,
     	Player				varchar(30) not null,
     	Captain				varchar(30) not null,
-    	Qualified_status 		varchar(30) not null,
+
     
     	primary key 			(Team_Name),
     	unique				(Team_Name)
