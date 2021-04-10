@@ -25,3 +25,6 @@ TiedGames←σScore_1=Score_2(MATCH)πName(σ(Name=TiedGames.Team_1 ∨ Name=Tie
 
 /*Players who have played in a match involving a given team*/
 πName(PLAYER)σName='*'(TEAM)
+
+/*Average score for team x 
+* G avg(Team) (project Team_A as Team (select (team_A = "x") (Matches)) union project Team_B as Team ((select (team_B = "x") Matches))
