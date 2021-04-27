@@ -5,7 +5,6 @@ use world_cup_3;
 create table Team
 (
 	Team_Name 			varchar(30) not null,
-    	Nick_Name 			varchar(30) not null,
     	Manager				varchar(30) not null,
     	Player				varchar(30) not null,
     	Captain				varchar(30) not null,
