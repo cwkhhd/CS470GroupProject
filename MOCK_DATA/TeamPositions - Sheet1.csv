@@ -47,8 +47,9 @@ Number,TName,Position
 57,Castor Oil,Defender
 62,Castor Oil,Defender
 78,Castor Oil,Defender
+8,OSCIMIN,Forward
 76,OSCIMIN,Forward
-8,OSCIMIN,GoalKeeper
+13,OSCIMIN,GoalKeeper
 12,OSCIMIN,Forward
 14,OSCIMIN,Midfielder
 19,OSCIMIN,Midfielder
@@ -57,6 +58,7 @@ Number,TName,Position
 77,OSCIMIN,Defender
 90,OSCIMIN,Defender
 48,OSCIMIN,Defender
+15,OSCIMIN,Defender
 74,OSCIMIN,Defender
 1,CRESTOR,GoalKeeper
 2,CRESTOR,Forward
@@ -65,6 +67,7 @@ Number,TName,Position
 44,CRESTOR,Midfielder
 69,CRESTOR,Midfielder
 76,CRESTOR,Midfielder
+5,CRESTOR,Midfielder
 79,CRESTOR,Defender
 88,CRESTOR,Defender
 97,CRESTOR,Defender
@@ -80,7 +83,7 @@ Number,TName,Position
 61,Peppermint,Defender
 76,Peppermint,Defender
 99,Peppermint,Defender
-100,Peppermint,Defender
+10,Peppermint,Defender
 8,ALMOST POWDER,GoalKeeper
 12,ALMOST POWDER,Forward
 31,ALMOST POWDER,Forward
@@ -98,6 +101,7 @@ Number,TName,Position
 13,Valsartan,Forward
 17,Valsartan,Midfielder
 20,Valsartan,Midfielder
+18,Valsartan,Midfielder
 24,Valsartan,Midfielder
 29,Valsartan,Midfielder
 30,Valsartan,Defender
@@ -151,7 +155,7 @@ Number,TName,Position
 56,Pacifica,Forward
 82,Pacifica,Forward
 97,Pacifica,Forward
-100,Pacifica,Forward
+10,Pacifica,Forward
 3,IBU,GoalKeeper
 4,IBU,GoalKeeper
 5,IBU,Midfielder
@@ -193,6 +197,7 @@ Number,TName,Position
 24,ANILINUM,Forward
 42,ANILINUM,Forward
 44,ANILINUM,Forward
+55,ANILINUM,Forward
 54,ANILINUM,Midfielder
 58,ANILINUM,Midfielder
 64,ANILINUM,Midfielder
@@ -200,6 +205,7 @@ Number,TName,Position
 81,ANILINUM,Defender
 91,ANILINUM,Defender
 1,Western Ragweed,GoalKeeper
+6,Western Ragweed,Forward
 5,Western Ragweed,GoalKeeper
 29,Western Ragweed,Forward
 34,Western Ragweed,Forward
@@ -261,6 +267,7 @@ Number,TName,Position
 2,Hydromorphone,GoalKeeper
 14,Hydromorphone,GoalKeeper
 28,Hydromorphone,Forward
+27,Hydromorphone,Forward
 31,Hydromorphone,Forward
 41,Hydromorphone,Forward
 44,Hydromorphone,Midfielder
@@ -276,6 +283,7 @@ Number,TName,Position
 28,NEXT CHOICE,Forward
 55,NEXT CHOICE,Midfielder
 67,NEXT CHOICE,Midfielder
+78,NEXT CHOICE,Midfielder
 69,NEXT CHOICE,Midfielder
 77,NEXT CHOICE,Defender
 84,NEXT CHOICE,Defender
@@ -294,8 +302,10 @@ Number,TName,Position
 98,Lovastatin,Defender
 4,FLOVENT,GoalKeeper
 8,FLOVENT,Forward
+5,FLOVENT,Forward
 10,FLOVENT,Forward
 12,FLOVENT,Forward
+37,FLOVENT,Forward
 38,FLOVENT,Midfielder
 44,FLOVENT,Midfielder
 50,FLOVENT,Midfielder
@@ -330,6 +340,7 @@ Number,TName,Position
 6,MALARONE,GoalKeeper
 12,MALARONE,Forward
 26,MALARONE,Forward
+13,MALARONE,Forward
 34,MALARONE,Forward
 37,MALARONE,Midfielder
 42,MALARONE,Midfielder
@@ -337,10 +348,11 @@ Number,TName,Position
 70,MALARONE,Midfielder
 79,MALARONE,Defender
 92,MALARONE,Defender
-100,MALARONE,Defender
+10,MALARONE,Defender
 6,POPULUS POLLEN,GoalKeeper
 11,POPULUS POLLEN,GoalKeeper
 16,POPULUS POLLEN,Forward
+15,POPULUS POLLEN,Forward
 40,POPULUS POLLEN,Forward
 45,POPULUS POLLEN,Forward
 61,POPULUS POLLEN,Midfielder
