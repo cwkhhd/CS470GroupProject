@@ -1,0 +1,375 @@
+Number,TName,Position
+1,Naloxone,GoalKeeper
+34,Naloxone,Forward
+35,Naloxone,Forward
+60,Naloxone,Midfielder
+64,Naloxone,Midfielder
+71,Naloxone,Midfielder
+73,Naloxone,Midfielder
+75,Naloxone,Defender
+78,Naloxone,Defender
+15,Naloxone,Defender
+12,Naloxone,Defender
+93,Naloxone,Defender
+2,Zonisamide,GoalKeeper
+8,Zonisamide,Forward
+19,Zonisamide,Forward
+35,Zonisamide,Midfielder
+42,Zonisamide,Midfielder
+48,Zonisamide,Midfielder
+49,Zonisamide,Defender
+52,Zonisamide,Defender
+63,Zonisamide,Defender
+97,Zonisamide,Defender
+14,Zonisamide,Defender
+99,Zonisamide,Defender
+87,Oxygen,Forward
+86,Oxygen,Forward
+59,Oxygen,Forward
+55,Oxygen,Midfielder
+44,Oxygen,Midfielder
+36,Oxygen,Midfielder
+33,Oxygen,Midfielder
+27,Oxygen,Defender
+17,Oxygen,Defender
+15,Oxygen,Defender
+3,Oxygen,Defender
+2,Oxygen,GoalKeeper
+2,Castor Oil,GoalKeeper
+8,Castor Oil,Forward
+13,Castor Oil,Forward
+15,Castor Oil,Midfielder
+21,Castor Oil,Midfielder
+30,Castor Oil,Midfielder
+42,Castor Oil,Defender
+43,Castor Oil,Defender
+50,Castor Oil,Defender
+57,Castor Oil,Defender
+62,Castor Oil,Defender
+78,Castor Oil,Defender
+76,OSCIMIN,Forward
+8,OSCIMIN,GoalKeeper
+12,OSCIMIN,Forward
+14,OSCIMIN,Midfielder
+19,OSCIMIN,Midfielder
+96,OSCIMIN,Midfielder
+50,OSCIMIN,Midfielder
+77,OSCIMIN,Defender
+90,OSCIMIN,Defender
+48,OSCIMIN,Defender
+74,OSCIMIN,Defender
+1,CRESTOR,GoalKeeper
+2,CRESTOR,Forward
+27,CRESTOR,Forward
+31,CRESTOR,Midfielder
+44,CRESTOR,Midfielder
+69,CRESTOR,Midfielder
+76,CRESTOR,Midfielder
+79,CRESTOR,Defender
+88,CRESTOR,Defender
+97,CRESTOR,Defender
+99,CRESTOR,Defender
+4,Peppermint,GoalKeeper
+5,Peppermint,Forward
+8,Peppermint,Forward
+10,Peppermint,Forward
+30,Peppermint,Midfielder
+35,Peppermint,Midfielder
+53,Peppermint,Midfielder
+56,Peppermint,Midfielder
+61,Peppermint,Defender
+76,Peppermint,Defender
+99,Peppermint,Defender
+100,Peppermint,Defender
+8,ALMOST POWDER,GoalKeeper
+12,ALMOST POWDER,Forward
+31,ALMOST POWDER,Forward
+34,ALMOST POWDER,Forward
+35,ALMOST POWDER,Midfielder
+52,ALMOST POWDER,Midfielder
+55,ALMOST POWDER,Midfielder
+57,ALMOST POWDER,Defender
+62,ALMOST POWDER,Defender
+72,ALMOST POWDER,Defender
+85,ALMOST POWDER,Defender
+90,ALMOST POWDER,Defender
+6,Valsartan,GoalKeeper
+11,Valsartan,Forward
+13,Valsartan,Forward
+17,Valsartan,Midfielder
+20,Valsartan,Midfielder
+24,Valsartan,Midfielder
+29,Valsartan,Midfielder
+30,Valsartan,Defender
+77,Valsartan,Defender
+78,Valsartan,Defender
+99,Valsartan,Defender
+22,allergy,GoalKeeper
+24,allergy,Forward
+29,allergy,Forward
+33,allergy,Forward
+35,allergy,GoalKeeper
+41,allergy,Midfielder
+45,allergy,Midfielder
+51,allergy,Midfielder
+60,allergy,Defender
+65,allergy,Defender
+73,allergy,Defender
+89,allergy,Defender
+5,Bears,GoalKeeper
+14,Bears,GoalKeeper
+22,Bears,Midfielder
+44,Bears,Midfielder
+48,Bears,Midfielder
+55,Bears,Forward
+57,Bears,Forward
+58,Bears,Defender
+69,Bears,Defender
+73,Bears,Defender
+96,Bears,Forward
+97,Bears,Forward
+12,Neutrogena,GoalKeeper
+22,Neutrogena,Forward
+23,Neutrogena,Forward
+30,Neutrogena,Forward
+34,Neutrogena,Forward
+39,Neutrogena,Midfielder
+57,Neutrogena,Midfielder
+62,Neutrogena,Midfielder
+78,Neutrogena,Midfielder
+84,Neutrogena,Defender
+85,Neutrogena,Defender
+92,Neutrogena,Defender
+12,Pacifica,GoalKeeper
+25,Pacifica,GoalKeeper
+26,Pacifica,Midfielder
+29,Pacifica,Midfielder
+30,Pacifica,Midfielder
+32,Pacifica,Defender
+35,Pacifica,Defender
+40,Pacifica,Defender
+56,Pacifica,Forward
+82,Pacifica,Forward
+97,Pacifica,Forward
+100,Pacifica,Forward
+3,IBU,GoalKeeper
+4,IBU,GoalKeeper
+5,IBU,Midfielder
+6,IBU,Midfielder
+12,IBU,Midfielder
+22,IBU,Forward
+33,IBU,Forward
+41,IBU,Forward
+53,IBU,Defender
+86,IBU,Defender
+91,IBU,Defender
+92,IBU,Defender
+2,Trazodone,GoalKeeper
+7,Trazodone,Forward
+9,Trazodone,Forward
+27,Trazodone,Forward
+28,Trazodone,Forward
+30,Trazodone,Midfielder
+35,Trazodone,Midfielder
+36,Trazodone,Midfielder
+44,Trazodone,Defender
+47,Trazodone,Defender
+86,Trazodone,Defender
+96,Trazodone,Defender
+17,Venlafaxine,GoalKeeper
+18,Venlafaxine,Forward
+23,Venlafaxine,Forward
+29,Venlafaxine,Midfielder
+38,Venlafaxine,Midfielder
+52,Venlafaxine,Midfielder
+55,Venlafaxine,Midfielder
+56,Venlafaxine,Forward
+61,Venlafaxine,Defender
+70,Venlafaxine,Defender
+87,Venlafaxine,Defender
+98,Venlafaxine,Defender
+3,ANILINUM,GoalKeeper
+9,ANILINUM,GoalKeeper
+24,ANILINUM,Forward
+42,ANILINUM,Forward
+44,ANILINUM,Forward
+54,ANILINUM,Midfielder
+58,ANILINUM,Midfielder
+64,ANILINUM,Midfielder
+71,ANILINUM,Defender
+81,ANILINUM,Defender
+91,ANILINUM,Defender
+1,Western Ragweed,GoalKeeper
+5,Western Ragweed,GoalKeeper
+29,Western Ragweed,Forward
+34,Western Ragweed,Forward
+46,Western Ragweed,Forward
+47,Western Ragweed,Forward
+51,Western Ragweed,Midfielder
+68,Western Ragweed,Midfielder
+77,Western Ragweed,Midfielder
+93,Western Ragweed,Defender
+99,Western Ragweed,Defender
+13,ESIKA,GoalKeeper
+40,ESIKA,GoalKeeper
+54,ESIKA,Forward
+58,ESIKA,Forward
+63,ESIKA,Forward
+67,ESIKA,Midfielder
+68,ESIKA,Midfielder
+73,ESIKA,Midfielder
+76,ESIKA,Midfielder
+83,ESIKA,Defender
+86,ESIKA,Defender
+89,ESIKA,Defender
+3,Caffeine Citrate,GoalKeeper
+26,Caffeine Citrate,Forward
+28,Caffeine Citrate,Forward
+30,Caffeine Citrate,Forward
+34,Caffeine Citrate,Forward
+44,Caffeine Citrate,Midfielder
+45,Caffeine Citrate,Midfielder
+60,Caffeine Citrate,Midfielder
+62,Caffeine Citrate,Midfielder
+66,Caffeine Citrate,Defender
+89,Caffeine Citrate,Defender
+98,Caffeine Citrate,Defender
+2,AMANTADINE,GoalKeeper
+9,AMANTADINE,Forward
+16,AMANTADINE,Forward
+21,AMANTADINE,Forward
+23,AMANTADINE,Midfielder
+27,AMANTADINE,Midfielder
+36,AMANTADINE,Midfielder
+45,AMANTADINE,Midfielder
+54,AMANTADINE,Defender
+67,AMANTADINE,Defender
+90,AMANTADINE,Defender
+98,AMANTADINE,Defender
+21,Health Smart,GoalKeeper
+23,Health Smart,GoalKeeper
+25,Health Smart,Forward
+30,Health Smart,Forward
+32,Health Smart,Forward
+33,Health Smart,Midfielder
+39,Health Smart,Midfielder
+54,Health Smart,Midfielder
+59,Health Smart,Defender
+63,Health Smart,Defender
+65,Health Smart,Defender
+70,Health Smart,Defender
+2,Hydromorphone,GoalKeeper
+14,Hydromorphone,GoalKeeper
+28,Hydromorphone,Forward
+31,Hydromorphone,Forward
+41,Hydromorphone,Forward
+44,Hydromorphone,Midfielder
+64,Hydromorphone,Midfielder
+76,Hydromorphone,Midfielder
+88,Hydromorphone,Defender
+90,Hydromorphone,Defender
+95,Hydromorphone,Defender
+6,NEXT CHOICE,GoalKeeper
+9,NEXT CHOICE,Forward
+11,NEXT CHOICE,Forward
+12,NEXT CHOICE,Forward
+28,NEXT CHOICE,Forward
+55,NEXT CHOICE,Midfielder
+67,NEXT CHOICE,Midfielder
+69,NEXT CHOICE,Midfielder
+77,NEXT CHOICE,Defender
+84,NEXT CHOICE,Defender
+87,NEXT CHOICE,Defender
+4,Lovastatin,GoalKeeper
+13,Lovastatin,Forward
+15,Lovastatin,Forward
+31,Lovastatin,Forward
+50,Lovastatin,Midfielder
+56,Lovastatin,Midfielder
+58,Lovastatin,Midfielder
+68,Lovastatin,Midfielder
+69,Lovastatin,Defender
+88,Lovastatin,Defender
+97,Lovastatin,Defender
+98,Lovastatin,Defender
+4,FLOVENT,GoalKeeper
+8,FLOVENT,Forward
+10,FLOVENT,Forward
+12,FLOVENT,Forward
+38,FLOVENT,Midfielder
+44,FLOVENT,Midfielder
+50,FLOVENT,Midfielder
+59,FLOVENT,Defender
+61,FLOVENT,Defender
+70,FLOVENT,Defender
+88,FLOVENT,Defender
+0,Panadol,GoalKeeper
+3,Panadol,GoalKeeper
+12,Panadol,Forward
+22,Panadol,Forward
+38,Panadol,Forward
+40,Panadol,Midfielder
+46,Panadol,Midfielder
+51,Panadol,Midfielder
+62,Panadol,Midfielder
+65,Panadol,Defender
+87,Panadol,Defender
+99,Panadol,Defender
+3,CEFPROZIL,GoalKeeper
+7,CEFPROZIL,Forward
+11,CEFPROZIL,Forward
+21,CEFPROZIL,Forward
+26,CEFPROZIL,Midfielder
+50,CEFPROZIL,Midfielder
+54,CEFPROZIL,Midfielder
+63,CEFPROZIL,Midfielder
+64,CEFPROZIL,Defender
+76,CEFPROZIL,Defender
+89,CEFPROZIL,Defender
+98,CEFPROZIL,Defender
+6,MALARONE,GoalKeeper
+12,MALARONE,Forward
+26,MALARONE,Forward
+34,MALARONE,Forward
+37,MALARONE,Midfielder
+42,MALARONE,Midfielder
+56,MALARONE,Midfielder
+70,MALARONE,Midfielder
+79,MALARONE,Defender
+92,MALARONE,Defender
+100,MALARONE,Defender
+6,POPULUS POLLEN,GoalKeeper
+11,POPULUS POLLEN,GoalKeeper
+16,POPULUS POLLEN,Forward
+40,POPULUS POLLEN,Forward
+45,POPULUS POLLEN,Forward
+61,POPULUS POLLEN,Midfielder
+73,POPULUS POLLEN,Midfielder
+75,POPULUS POLLEN,Midfielder
+78,POPULUS POLLEN,Defender
+82,POPULUS POLLEN,Defender
+83,POPULUS POLLEN,Defender
+3,Chlorothiazide,GoalKeeper
+11,Chlorothiazide,GoalKeeper
+13,Chlorothiazide,Forward
+14,Chlorothiazide,Forward
+20,Chlorothiazide,Forward
+36,Chlorothiazide,Forward
+45,Chlorothiazide,Midfielder
+50,Chlorothiazide,Midfielder
+69,Chlorothiazide,Midfielder
+76,Chlorothiazide,Defender
+83,Chlorothiazide,Defender
+91,Chlorothiazide,Defender
+4,Calcitriol,GoalKeeper
+5,Calcitriol,GoalKeeper
+17,Calcitriol,Forward
+35,Calcitriol,Forward
+50,Calcitriol,Forward
+56,Calcitriol,Midfielder
+62,Calcitriol,Midfielder
+78,Calcitriol,Midfielder
+83,Calcitriol,Defender
+90,Calcitriol,Defender
+94,Calcitriol,Defender
+99,Calcitriol,Defender
