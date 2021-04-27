@@ -1,0 +1,122 @@
+use world_cup_3;
+
+-- what teams made it to the knockout rounds
+delimiter $$
+create procedure sp_knockout_teams ()
+begin
+	select Team_1, Team_2
+    from matches inner join match_junction on matches.match_number = match_junction.match_number
+    where match_type = 'knockout';
+end$$
+delimiter ;
+
+
+-- what is the total wins, losses, and ties for each team?
+
+delimiter $$
+create procedure sp_win_loss (IN team varchar(30))
+begin
+	select count(wins), count(losses), count(tie)
+from (
+
+(select count(*) as wins, 0 as losses, 0 as tie
+from matches
+where winner = team)
+union
+	(select 0 as count, count(*) as wins, 0 as tie 
+    from matches
+    where winner <> team AND (team_1 = team or team_2 = team))
+union
+	(select 0 as count, 0 as wins, count(*) as tie
+    from matches
+    where (team_1= team or team_2 = team) and winnter is null)
+   
+) as temp_table;
+
+end$$
+delimiter ;
+
+-- how many games ended in a tie
+
+delimiter $$
+create procedure sp_tie_game ()
+begin
+    select count(*)
+    from matches
+    where winner is null;
+    
+end$$
+    delimiter ;
+    
+-- what was the highest score of all teams?
+
+delimiter $$
+create procedure sp_high_score ()
+begin
+  select team, max(score)
+  from (select team_1 as team, score_1 as score
+  from Matches
+  union
+  select team_2 as team, score_2 as score
+  from Matches
+  ) as temp;
+end$$
+    delimiter ;
+
+
+    
+
+delimiter $$
+create procedure sp_low_score ()
+begin
+  select team, min(score)
+  from (select team_1 as team, score_1 as score
+  from matches
+  union
+  select team_2 as team, score_2 as score
+  from matches
+  ) as temp;
+end$$
+    delimiter ;
+    
+-- what group is team x in?
+
+delimiter $$
+create procedure sp_team_group (IN team varchar(50))
+begin
+	select distinct Match_Type
+    from matches inner join match_type on matches.Match_Number = match_type.Match_number
+    where (team = Team_1 or team = Team_2) and Match_Type like '%group%';
+end$$
+    delimiter ;
+
+-- score for group phase
+
+delimiter $$
+create procedure sp_group_score (IN team varchar(50))
+begin
+	select count(score)
+    from
+    (
+		(select count(*) as score
+		from matches inner join match_type on matches.Match_Number = match_type.Match_number
+		where (team = Team_1 or team = Team_2) and Match_Type like '%group%' and team = winner)
+		union
+		(select count(*) as score
+		from matches inner join match_type on matches.Match_Number = match_type.Match_number
+		where (team = Team_1 or team = Team_2) and Match_Type like '%group%' and team = winner)
+		)
+		as temp;
+end$$
+    delimiter ;
+    
+-- team roster
+
+delimiter $$
+create procedure sp_roster (IN team varchar(50))
+begin
+	select First_Name, Last_Name, Number as Jersey_Number
+    from Player
+    where Team_Name = team;
+end$$
+    delimiter ;
