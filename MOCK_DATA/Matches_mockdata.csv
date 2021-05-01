@@ -1,0 +1,64 @@
+﻿Match_Number,Team_1,Team_2,Score_1,Score_2,Winner,Stadium,Match_Time
+1,OSCIMIN,CRESTOR,4,7,CRESTOR,Kaufmann,5/1/21 8:30
+2,OSCIMIN,Peppermint,4,2,OSCIMIN,Fenway,5/2/21 8:30
+3,OSCIMIN,ALMOST POWDER,8,1,OSCIMIN,Angel,5/3/21 8:30
+4,CRESTOR,Peppermint,2,1,CRESTOR,Busch,5/4/21 8:30
+5,CRESTOR,ALMOST POWDER,6,0,CRESTOR,Chase,5/5/21 8:30
+6,Peppermint,ALMOST POWDER,3,5,ALMOST POWDER,Citi,5/6/21 8:30
+7,Valsartan,allergy,1,4,allergy,Comerica,5/2/21 8:30
+8,Valsartan,Bears,2,3,Bears,Oracle,5/3/21 8:30
+9,Valsartan,Neutrogena,4,5,Neutrogena,Oracle,5/4/21 8:30
+10,allergy,Bears,1,3,Bears,Fenway,5/5/21 8:30
+11,allergy,Neutrogena,4,8,Neutrogena,Kaufmann,5/6/21 8:30
+12,Bears,Neutrogena,3,5,Neutrogena,Citi,5/1/21 8:30
+13,Naloxone,Zonisamide,3,4,Zonisamide,Kaufmann,5/3/21 8:30
+14,Naloxone,Oxygen,1,4,Oxygen,Fenway,5/4/21 8:30
+15,Naloxone,Castor Oil,5,7,Castor Oil,Angel,5/5/21 8:30
+16,Zonisamide,Oxygen,3,1,Zonisamide,Busch,5/6/21 8:30
+17,Zonisamide,Castor Oil,2,6,Castor Oil,Chase,5/1/21 8:30
+18,Oxygen,Castor Oil,1,7,Castor Oil,Citi,5/2/21 8:30
+19,Pacifica,IBU,1,4,IBU,Comerica,5/1/21 8:30
+20,Pacifica,Trazodone,1,4,Trazodone,Oracle,5/2/21 8:30
+21,Pacifica,Venlafaxine,3,0,Pacifica,Oracle,5/3/21 8:30
+22,IBU,Trazodone,6,7,Trazodone,Fenway,5/4/21 8:30
+23,IBU,Venlafaxine,5,0,IBU,Kaufmann,5/5/21 8:30
+24,Trazodone,Venlafaxine,3,1,Trazadone,Citi,5/6/21 8:30
+25,MALARONE,POPULUS POLLEN,4,2,MALARONE,Kaufmann,5/1/21 8:30
+26,MALARONE,Calcitriol,4,1,MALARONE,Fenway,5/2/21 8:30
+27,MALARONE,Chlorothiazide,1,6,Chlorothiazide,Angel,5/3/21 8:30
+28,POPULUS POLLEN,Calcitriol,2,3,Calcitriol,Busch,5/4/21 8:30
+29,POPULUS POLLEN,Chlorothiazide,2,5,Chlorothiazide,Chase,5/5/21 8:30
+30,Calcitriol,Chlorothiazide,1,7,Chlorothiazide,Citi,5/6/21 8:30
+31,AMANTADINE,Health Smart,1,3,Health Smart,Comerica,5/1/21 8:30
+32,AMANTADINE,Hydromorphone,5,0,AMANTADINE,Oracle,5/2/21 8:30
+33,AMANTADINE,NEXT CHOICE,4,3,AMANTADINE,Oracle,5/3/21 8:30
+34,Health Smart,Hydromorphone,5,2,Health Smart,Fenway,5/4/21 8:30
+35,Health Smart,NEXT CHOICE,6,3,Health Smart,Kaufmann,5/5/21 8:30
+36,Hydromorphone,NEXT CHOICE,1,2,NEXT CHOICE,Citi,5/6/21 8:30
+37,ANILINUM,Western Ragweed,4,1,ANILINUM,Kaufmann,5/1/21 8:30
+38,ANILINUM,ESIKA,2,3,ESIKA,Fenway,5/2/21 8:30
+39,ANILINUM,Caffeine Citrate,6,0,ANILINUM,Angel,5/3/21 8:30
+40,Western Ragweed,ESIKA,1,3,ESIKA,Busch,5/4/21 8:30
+41,Western Ragweed,Caffeine Citrate,2,1,Western Ragweed,Chase,5/5/21 8:30
+42,ESIKA,Caffeine Citrate,3,0,ESIKA,Citi,5/6/21 8:30
+43,Lovastatin,FLOVENT,1,5,FLOVENT,Comerica,5/1/21 8:30
+44,Lovastatin,Panadol,0,4,Panadol,Oracle,5/2/21 8:30
+45,Lovastatin,CEFPROZIL,2,5,CEFPROZIL,Oracle,5/3/21 8:30
+46,FLOVENT,Panadol,4,1,FLOVENT,Fenway,5/4/21 8:30
+47,FLOVENT,CEFPROZIL,1,3,CEFPROZIL,Kaufmann,5/5/21 8:30
+48,Panadol,CEFPROZIL,4,6,CEFPROZIL,Citi,5/6/21 8:30
+49,OSCIMIN,Bears,2,5,Bears,Kaufmann,5/7/21 8:30
+50,Zonisamide,IBU,1,4,IBU,Fenway,5/8/21 8:30
+51,MALARONE,AMANTADINE,4,2,MALARONE,Angel,5/9/21 8:30
+52,ANILINUM,FLOVENT,1,6,FLOVENT,Busch,5/10/21 8:30
+53,CRESTOR,Neutrogena,5,2,CRESTOR,Chase,5/11/21 8:30
+54,Castor Oil,Trazodone,7,2,Castor Oil,Citi,5/12/21 8:30
+55,Chlorothiazide,Health Smart,1,3,Health Smart,Comerica,5/13/21 8:30
+56,ESIKA,CEFPROZIL,3,2,ESIKA,Oracle,5/14/21 8:30
+57,Bears,IBU,2,4,IBU,Oracle,5/15/21 8:30
+58,MALARONE,FLOVENT,1,4,FLOVENT,Fenway,5/16/21 8:30
+59,CRESTOR,Castor Oil,2,3,Castor Oil,Kaufmann,5/17/21 8:30
+60,Health Smart,ESIKA,1,6,ESIKA,Citi,5/18/21 8:30
+61,IBU,FLOVENT,1,4,FLOVENT,Kaufmann,5/19/21 8:30
+62,Castor Oil,ESIKA,3,6,Castor Oil,Fenway,5/20/21 8:30
+63,FLOVENT,Castor Oil,3,5,Castor Oil,Angel,5/21/21 8:30
